@@ -2,7 +2,6 @@ import { pipeline } from "@xenova/transformers"
 
 export async function transcribe(audio) {
   try {
-
     console.log("Realizando a transicrição...")
 
     const transcribe = await pipeline(

@@ -2,7 +2,6 @@ import { pipeline } from "@xenova/transformers"
 
 export async function summarize(text) {
   try {
-
     console.log("Realizando o resumo...")
 
     const generator = await pipeline(
